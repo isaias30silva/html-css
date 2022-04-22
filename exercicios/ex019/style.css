@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    color:midnightblue;
+}
+
+h1#principal {
+    background-color: indigo;
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h2 {
+    color:indigo;
+}
+
+.basico {
+    background-color: white; 
+    font-weight: bolder;
+}
+
+.intermediario {
+    background-color: cornflowerblue;
+    font-weight: bolder;
+}
+
+.avancado {
+    background-color: dimgrey;
+    font-weight: bolder;
+}
+
+.destaque {
+    color: red;
+    font-weight: bolder;
+    background-color: cornsilk;
+}
