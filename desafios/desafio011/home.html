@@ -6,14 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espaço Sideral</title>
     <style>
+        #container {
+            background-image: url('imagens/espaco.jpg');
+            background-size: cover;
+            position: relative;
+            height: 94vh;
+            padding: 10px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
 
-        main 
+        #conteudo {
+            background-image: url('imagens/astronauta.png');
+            background-size: 100% 100%;
 
+            position: absolute;
+            height: 300px;
+            width: 300px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
     </style>
 </head>
 <body>
-    <main>
-        <img src="imagens/espaco.jpg" alt="espaco sideral">
-    </main>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
 </body>
 </html>
