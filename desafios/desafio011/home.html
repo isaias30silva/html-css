@@ -4,41 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio do Astronauta</title>
+    <title>Espaço Sideral</title>
     <style>
-
-        body {
-            height: 100vh;
-            
-            background-image: url('imagens/espaco.jpg');
+        body{
+            height: 97vh;
+            background-color: black;
+            background-image: url(imagens/espaco.jpg);
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: center center;
             background-attachment: fixed;
-
-            position: relative;
-
         }
-
-        #container {
-            background-image: url('imagens/astronauta.png');
+        #astronauta{
+            background-image: url(imagens/astronauta.png);
             background-size: 100% 100%;
-            background-repeat: no-repeat;
-
             position: absolute;
-            height: 200px;
-            width: 400px;
-            background-color: transparent;
-
             left: 50%;
             top: 50%;
-
             transform: translate(-50%, -50%);
+            height: 400px;
+            width: 400px;
         }
     </style>
 </head>
 <body>
-    <main id="container">
-</main>
+    <div id="astronauta"></div>
 </body>
 </html>
